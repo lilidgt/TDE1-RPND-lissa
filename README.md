@@ -1,15 +1,12 @@
 # TDE1-RPND-lissa
 (lissa deguti) TDE 1 - Resolução de Problemas de Natureza Discreta (Turma 2º U) - Ciência da Computação (Noite) - 2024 / 2º Sem
 
-Autor: Lissa Deguti
-
 Realizei o projeto com informações do Livro de Jorge Zavaleta (Professor da Universidade Federal Rural do
 Rio de Janeiro), "Modelagem e Simulação de Sistemas Usando Lógica Fuzzy com Python, Teoria e Prática".
 
 Link para o PDF do livro:
 https://www.researchgate.net/profile/Jorge-Zavaleta-2/publication/370527332_Modelagem_e_Simulacao_de_Sistemas_Usando_Logica_Fuzzy_com_Python_Teoria_e_Pratica/links/64ba8522c41fb852dd8e901e/Modelagem-e-Simulacao-de-Sistemas-Usando-Logica-Fuzzy-com-Python-Teoria-e-Pratica.pdf
 
---------------------------------------------------------------------------------------
 TDE 1
 
 De acordo com o professor Zavaleta, conjuntos são coleções não ordenadas de objetos sem repetição. Em Python,
