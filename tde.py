@@ -1,4 +1,6 @@
 #AUTOR: Lissa Deguti
+
+#PRECISA MUDAR O NOME DO ARQUIVO QUE ESTÁ SENDO LIDO!
 #funções
 def uniao(conjunto1, conjunto2):
     return conjunto1.union(conjunto2)
