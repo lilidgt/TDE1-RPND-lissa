@@ -48,7 +48,7 @@ with open("operacoes1.txt", "r") as arquivo: #alterar o nome do arquivo (operaco
             resultado = produtoCartesiano(conjunto1, conjunto2)
         
     
-        print(f"{nomeOperacao}: conjunto 1 {conjunto1}, conjunto 2 {conjunto2}. Resultado: {resultado}")
+        print(f"{nomeOperacao}:\nConjunto 1 {conjunto1}\nConjunto 2 {conjunto2}\nResultado: {resultado}\n")
         
         linhaAtual += 3
 
