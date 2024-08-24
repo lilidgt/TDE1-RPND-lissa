@@ -24,24 +24,25 @@ Alterei um pouco a aparência pedida pelo professor, da saída com os resultados
 
 --------------------------------------------------------------------------------------
 Erros durante o projeto:
-1. Utilizar listas (list) ao invés de conjuntos (set);
+-Utilizar listas (list) ao invés de conjuntos (set);
 
-2. Aqui tentei fazer a função do Produto Cartesiano utilizando index. O que descobri depois, não ser necessário:
-def produtoCartesiano(conjunto1, conjunto2):
-    conjunto1 = list(conjunto1)
-    conjunto2 = list(conjunto2)
-    produtoCartesiano = set()
-    for i in range(len(conjunto1)):
-   
-        x = conjunto1[i]
-        for j in range(len(conjunto2)):
-            y = conjunto2[j]
-            par = (x, y)
-            produtoCartesiano.add(par)
-    return produtoCartesiano
-4. Tentei usar lista apenas para a função de Produto Cartesiano.
+-Aqui tentei fazer a função do Produto Cartesiano utilizando index. O que descobri depois, não ser necessário:
 
-#para retornar todos os pontos possíveis (onde a lista1 vai ter a coordenada x e a lista2 a coordenada y)
+    def produtoCartesiano(conjunto1, conjunto2):
+        conjunto1 = list(conjunto1)
+        conjunto2 = list(conjunto2)
+        produtoCartesiano = set()
+        for i in range(len(conjunto1)):
+            x = conjunto1[i]
+            for j in range(len(conjunto2)):
+                y = conjunto2[j]
+                par = (x, y)
+                produtoCartesiano.add(par)
+        return produtoCartesiano
+
+-Tentei usar lista apenas para a função de Produto Cartesiano:
+
+    #para retornar todos os pontos possíveis (onde a lista1 vai ter a coordenada x e a lista2 a coordenada y)
     for a in len(conjunto1):
         x = conjunto1[a]
         for b in len(conjunto2):
