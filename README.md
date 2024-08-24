@@ -22,6 +22,7 @@ list(s) - Os elementos de s numa lista
 Para o Produto Cartesiano, apenas utilizei o loop 'for' para acumular todos os pares ordenados em um conjunto.
 Devido as restrições do projeto, não alterei a forma de printar o Produto Cartesiano. Porém, é possível melhorar a
 saída para que fique mais organizado.
+
 --------------------------------------------------------------------------------------
 Erros durante o projeto:
 1. Utilizar listas (list) ao invés de conjuntos (set);
