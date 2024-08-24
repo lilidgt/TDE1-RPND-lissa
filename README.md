@@ -32,13 +32,14 @@ def produtoCartesiano(conjunto1, conjunto2):
     conjunto2 = list(conjunto2)
     produtoCartesiano = set()
     for i in range(len(conjunto1)):
+   
         x = conjunto1[i]
         for j in range(len(conjunto2)):
             y = conjunto2[j]
             par = (x, y)
             produtoCartesiano.add(par)
     return produtoCartesiano
-3. Tentei usar lista apenas para a função de Produto Cartesiano.
+4. Tentei usar lista apenas para a função de Produto Cartesiano.
 
 #para retornar todos os pontos possíveis (onde a lista1 vai ter a coordenada x e a lista2 a coordenada y)
     for a in len(conjunto1):
