@@ -1,4 +1,4 @@
-# TDE1-RPND-lissa
+# TDE1-RPND
 (lissa deguti) TDE 1 - Resolução de Problemas de Natureza Discreta (Turma 2º U) - Ciência da Computação (Noite) - 2024 / 2º Sem
 
 Realizei o projeto com informações do Livro de Jorge Zavaleta (Professor da Universidade Federal Rural do
